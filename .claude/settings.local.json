@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs grep:*)",
+      "Bash(xargs wc:*)",
+      "Bash(flutter run:*)",
+      "Bash(dart run:*)",
+      "Bash(flutter analyze:*)",
+      "Bash(grep -v \"^$\")",
+      "Bash(grep:*)",
+      "Bash(cat \"C:\\\\Users\\\\User\\\\Vitta\\\\lib\\\\features\\\\professional\\\\presentation\\\\screens\\\\professional_dashboard_screen.dart\")",
+      "Read(//tmp/**)",
+      "Bash(python:*)",
+      "Bash(where dart:*)",
+      "Bash(dart --version)",
+      "Bash(dart fix:*)"
+    ]
+  }
+}

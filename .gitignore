@@ -1,0 +1,74 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+.metadata
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Linux
+/linux/flutter/ephemeral
+/linux/flutter/ephemeral/
+
+# MacOS
+/macos/Flutter/ephemeral
+/macos/Flutter/ephemeral/
+
+# Windows
+/windows/flutter/ephemeral
+/windows/flutter/ephemeral/
+
+# Exceptions to above rules.
+!/android/app/src/main/AndroidManifest.xml
+
+# Backend / Python
+__pycache__/
+*.egg-info/
+venv/
+.env
+instance/
+backend/venv/
+
+# Credential files (NEVER commit)
+docs/CREDENTIALS.md
+"CUsersalexkssh root@localhost.txt"
+credentials/local/
+*.txt
